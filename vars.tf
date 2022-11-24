@@ -6,7 +6,7 @@ variable "data_center" {
 }
 
 variable "data_store" {
-  default = "data-vol-1"
+  default = "datastore1"
 }
 
 variable "mgmt_lan" {
@@ -18,11 +18,11 @@ variable "net_adapter_type" {
 }
 
 variable "guest_id" {
-  default = "centos7_64Guest"
+  default = "ubuntu64Guest"
 }
 
 variable "custom_iso_path" {
-  default = "iso/centos7-custom-img-disk50gb-v0.0.3.iso"
+  default = "ubuntu-20.04.4-desktop-amd64.iso"
 }
 
 variable "name_new_vm" {
